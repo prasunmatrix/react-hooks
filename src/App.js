@@ -3,6 +3,8 @@ import './App.css';
 import React from 'react';
 import DataFetching from './components/DataFetching';
 import DataFetchingSingle from './components/DataFetchingSingle';
+import DataFetchingButtonClick from './components/DataFetchingButtonClick';
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
       </header> */}
       <DataFetching /><br/>
       <DataFetchingSingle /><br/>
+      <DataFetchingButtonClick /><br/>
     </div>
   );
 }
